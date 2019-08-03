@@ -18,12 +18,10 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.util.List;
 import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
-
 import ir.example.videocall.R;
 
 public class CallScreenActivity extends BaseActivity {
@@ -31,6 +29,7 @@ public class CallScreenActivity extends BaseActivity {
     static final String TAG = CallScreenActivity.class.getSimpleName();
     static final String CALL_START_TIME = "callStartTime";
     static final String ADDED_LISTENER = "addedListener";
+
 
     private AudioPlayer mAudioPlayer;
     private Timer mTimer;
