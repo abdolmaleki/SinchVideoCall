@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import ir.example.videocall.sinch.SnichLoginActivity;
-
+/*
+this is comment for first branch
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
